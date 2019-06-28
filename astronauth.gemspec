@@ -23,4 +23,6 @@ Gem::Specification.new do |gspec|
   gspec.add_development_dependency 'rake',  '~> 12.3'
   gspec.add_development_dependency 'rdoc',  '~> 6.1'
   gspec.add_development_dependency 'rspec', '~> 3.8'
+
+  gspec.add_runtime_dependency 'redis', '~> 3.3'
 end
